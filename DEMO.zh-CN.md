@@ -14,7 +14,7 @@
 | 主要指标 | 访问量、订单数、收入、退款、营销成本 |
 | 汇报目标 | 复盘增长、效率、退款压力与下一步验证 |
 
-仓库只保留完整 HTML 演示和两张代表性 PPT 效果图，避免把 5 MB 源表与整套 PPTX 塞进 Skill 安装包。需要本地试用时，可运行 `scripts/generate_sample.py` 生成一份更轻量的合成表。
+公开案例提供完整 HTML、四组两版 PPT 同页对照，以及两套完整23页样例。5 MB 源表不放进公开仓库；需要本地试用时，可运行 `scripts/generate_sample.py` 生成一份更轻量的合成表。
 
 ## 本案例的核心判断
 
@@ -24,7 +24,7 @@
 
 ## 查看产物
 
-**[在线查看完整 HTML 分析简报](https://majichuan.github.io/sheet-to-report/)**
+**[在线查看完整案例展示](https://majichuan.github.io/sheet-to-report/)** · [阅读完整 HTML 分析简报](https://majichuan.github.io/sheet-to-report/report.html)
 
 HTML 按“核心判断、经营基本盘、图表依据、行动路线、指标口径”组织阅读主线。主要结论可跳转到对应证据，并保留会影响解释的限制条件。
 
@@ -33,6 +33,8 @@ HTML 按“核心判断、经营基本盘、图表依据、行动路线、指标
 | ![标准版图表页](assets/screenshots/standard-ppt-chart.png) | ![SlideViber 美化版图表页](assets/screenshots/slideviber-ppt-chart.png) |
 
 两张图使用同一组源数据与同一条结论。标准版侧重直接编辑和汇报结构；SlideViber 美化版使用独立构图，加强结论、业务解释与图表之间的关系。美化环节为可选能力，需要用户单独安装 SlideViber。
+
+[下载完整可编辑标准版 PPTX](https://majichuan.github.io/sheet-to-report/downloads/sheet-to-report-demo-standard.pptx) · [下载完整 SlideViber 美化版 PPTX](https://majichuan.github.io/sheet-to-report/downloads/sheet-to-report-demo-slideviber.pptx)
 
 ## 这个案例证明了什么
 

@@ -14,13 +14,15 @@
 
 The public demo uses a fully synthetic 100,000-row omnichannel workbook with 11 fields across 18 months. It contains no real company or personal data.
 
-**[Open the complete HTML report](https://majichuan.github.io/sheet-to-report/)** · [Read the case walkthrough](DEMO.md)
+**[Open the complete public showcase](https://majichuan.github.io/sheet-to-report/)** · [Read the full HTML report](https://majichuan.github.io/sheet-to-report/report.html) · [Read the case walkthrough](DEMO.md)
 
 The two images below show the same conclusion and numbers. The standard deck keeps the chart and text directly editable; the optional SlideViber pass changes the composition and visual hierarchy without dropping material information.
 
 | Editable standard deck | Optional SlideViber refinement |
 | --- | --- |
 | ![Standard deck: paid advertising return fell from the prior-year period](assets/screenshots/standard-ppt-chart.png) | ![SlideViber-refined deck: the same conclusion in a stronger editorial composition](assets/screenshots/slideviber-ppt-chart.png) |
+
+The online showcase compares four matching page pairs and provides both complete 23-slide demo decks: [download the editable standard PPTX](https://majichuan.github.io/sheet-to-report/downloads/sheet-to-report-demo-standard.pptx) or [download the SlideViber-refined PPTX](https://majichuan.github.io/sheet-to-report/downloads/sheet-to-report-demo-slideviber.pptx).
 
 ## Outputs
 

@@ -2,6 +2,10 @@
 
 All notable public changes to `sheet-to-report` are recorded here.
 
+## Unreleased
+
+- Expanded the public synthetic demo into a three-output showcase with the complete HTML report, four matched standard/SlideViber page comparisons, and both downloadable 23-slide PPTX files.
+
 ## 0.2.0 - 2026-09-10
 
 - Added an evidence-traceable analysis workflow from semantic confirmation through HTML and presentation outputs.

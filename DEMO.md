@@ -14,7 +14,7 @@ This case shows what `sheet-to-report` produces from a single structured workboo
 | Metrics | Visits, orders, revenue, refunds, and marketing cost |
 | Goal | Review growth, efficiency, refund pressure, and the next tests |
 
-The repository stays lightweight: it publishes the finished HTML demo and two representative slide images. The 5 MB workbook and full PPTX files are not bundled. Use `scripts/generate_sample.py` to create a smaller synthetic workbook for a local workflow test.
+The public showcase publishes the finished HTML report, four matched slide comparisons, and both complete 23-slide demo decks. The 5 MB source workbook is not bundled. Use `scripts/generate_sample.py` to create a smaller synthetic workbook for a local workflow test.
 
 ## Accepted findings in this demo
 
@@ -24,7 +24,7 @@ The repository stays lightweight: it publishes the finished HTML demo and two re
 
 ## Output tour
 
-**[Open the complete HTML report](https://majichuan.github.io/sheet-to-report/)**
+**[Open the complete public showcase](https://majichuan.github.io/sheet-to-report/)** · [Read the full HTML report](https://majichuan.github.io/sheet-to-report/report.html)
 
 The HTML report provides a fixed reading path from headline judgments to the operating baseline, chart evidence, actions, and metric definitions. Each major claim links to its evidence and keeps the limitations that affect interpretation.
 
@@ -33,6 +33,8 @@ The HTML report provides a fixed reading path from headline judgments to the ope
 | ![Standard deck chart page](assets/screenshots/standard-ppt-chart.png) | ![SlideViber-refined chart page](assets/screenshots/slideviber-ppt-chart.png) |
 
 Both slides use the same source values and conclusion. The standard version prioritizes direct editing and presentation structure. The SlideViber version uses a separate composition with a stronger relationship between the judgment, business meaning, and chart. The refinement remains optional and requires a separate SlideViber installation.
+
+[Download the complete editable standard PPTX](https://majichuan.github.io/sheet-to-report/downloads/sheet-to-report-demo-standard.pptx) · [Download the complete SlideViber-refined PPTX](https://majichuan.github.io/sheet-to-report/downloads/sheet-to-report-demo-slideviber.pptx)
 
 ## What this demonstrates
 

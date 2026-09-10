@@ -12,13 +12,15 @@
 
 公开演示采用完全合成的 10 万行全渠道经营数据，覆盖 18 个月、11 个字段，不包含真实企业或个人信息。
 
-**[在线查看完整 HTML 分析简报](https://majichuan.github.io/sheet-to-report/)** · [查看案例说明](DEMO.zh-CN.md)
+**[在线查看完整案例展示](https://majichuan.github.io/sheet-to-report/)** · [阅读完整 HTML 分析简报](https://majichuan.github.io/sheet-to-report/report.html) · [查看案例说明](DEMO.zh-CN.md)
 
 下面两张图使用同一条结论和同一组数据。标准版保留直接可编辑的图表与文字；可选的 SlideViber 美化版在不遗漏重要信息的前提下，重新组织构图和视觉层级。
 
 | 可编辑标准版 | 可选 SlideViber 美化版 |
 | --- | --- |
 | ![标准版：付费广告投入产出低于去年同期](assets/screenshots/standard-ppt-chart.png) | ![SlideViber 美化版：同一结论采用更有层次的图文构图](assets/screenshots/slideviber-ppt-chart.png) |
+
+在线案例增加了四组同页对照，并提供两套完整23页样例：[下载可编辑标准版 PPTX](https://majichuan.github.io/sheet-to-report/downloads/sheet-to-report-demo-standard.pptx)，或[下载 SlideViber 美化版 PPTX](https://majichuan.github.io/sheet-to-report/downloads/sheet-to-report-demo-slideviber.pptx)。
 
 ## 你能拿到什么
 
