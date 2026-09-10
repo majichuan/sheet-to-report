@@ -20,7 +20,7 @@ The two images below show the same conclusion and numbers. The standard deck kee
 
 | Editable standard deck | Optional SlideViber refinement |
 | --- | --- |
-| ![Standard deck: paid advertising return fell from the prior-year period](assets/screenshots/standard-ppt-chart.png) | ![SlideViber-refined deck: the same conclusion in a stronger editorial composition](assets/screenshots/slideviber-ppt-chart.png) |
+| ![Standard deck: a full-width editable chart shows that paid advertising return fell from the prior-year period](assets/screenshots/standard-ppt-chart.png) | ![SlideViber-refined deck: the business interpretation sits beside the same chart evidence](assets/screenshots/slideviber-ppt-chart.png) |
 
 The online showcase compares four matching page pairs and provides both complete 23-slide demo decks: [download the editable standard PPTX](https://majichuan.github.io/sheet-to-report/downloads/sheet-to-report-demo-standard.pptx) or [download the SlideViber-refined PPTX](https://majichuan.github.io/sheet-to-report/downloads/sheet-to-report-demo-slideviber.pptx).
 

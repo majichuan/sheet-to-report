@@ -18,7 +18,7 @@
 
 | 可编辑标准版 | 可选 SlideViber 美化版 |
 | --- | --- |
-| ![标准版：付费广告投入产出低于去年同期](assets/screenshots/standard-ppt-chart.png) | ![SlideViber 美化版：同一结论采用更有层次的图文构图](assets/screenshots/slideviber-ppt-chart.png) |
+| ![标准版：整页原生图表显示付费广告投入产出低于去年同期](assets/screenshots/standard-ppt-chart.png) | ![SlideViber 美化版：左侧解释业务含义，右侧保留同一组图表证据](assets/screenshots/slideviber-ppt-chart.png) |
 
 在线案例增加了四组同页对照，并提供两套完整23页样例：[下载可编辑标准版 PPTX](https://majichuan.github.io/sheet-to-report/downloads/sheet-to-report-demo-standard.pptx)，或[下载 SlideViber 美化版 PPTX](https://majichuan.github.io/sheet-to-report/downloads/sheet-to-report-demo-slideviber.pptx)。
 
