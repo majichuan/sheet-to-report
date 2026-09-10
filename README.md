@@ -40,7 +40,7 @@ The two images below show the same conclusion and numbers. The standard deck kee
 
 ## Install
 
-After this repository is published, an Agent Skills-compatible installer can add it from GitHub:
+An Agent Skills-compatible installer can add it directly from GitHub:
 
 ```bash
 npx skills add https://github.com/majichuan/sheet-to-report

@@ -38,7 +38,7 @@
 
 ## 安装
 
-仓库公开后，可用兼容 Agent Skills 的安装器从 GitHub 安装：
+可用兼容 Agent Skills 的安装器直接从 GitHub 安装：
 
 ```bash
 npx skills add https://github.com/majichuan/sheet-to-report

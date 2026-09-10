@@ -11,4 +11,4 @@ All notable public changes to `sheet-to-report` are recorded here.
 - Added a synthetic sample generator, environment checks, privacy guidance, and public-package portability documentation.
 - Added a GitHub Pages-ready 100,000-row synthetic HTML demo and matched standard/SlideViber presentation previews.
 
-This is the first public GitHub release candidate.
+This is the first public GitHub release.
