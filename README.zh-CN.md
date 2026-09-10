@@ -2,6 +2,8 @@
 
 [English](README.md)
 
+[![skills.sh 安装量](https://skills.sh/b/majichuan/sheet-to-report)](https://skills.sh/majichuan/sheet-to-report/sheet-to-report)
+
 **把一张业务表，变成有判断、有依据、能汇报的经营简报。**
 
 ![从业务表到证据、图表与行动](assets/brand/github-social-preview.png)
@@ -43,8 +45,10 @@
 可用兼容 Agent Skills 的安装器直接从 GitHub 安装：
 
 ```bash
-npx skills add https://github.com/majichuan/sheet-to-report
+npx skills add https://github.com/majichuan/sheet-to-report --skill sheet-to-report
 ```
+
+也可以在 [skills.sh 公开详情页](https://skills.sh/majichuan/sheet-to-report/sheet-to-report)查看安装入口和累计安装量。
 
 也可以下载 GitHub Release 的 ZIP，或把仓库复制到所用 AI 工具支持的 Skill 目录。请保持 `SKILL.md`、`references/`、`scripts/` 和 `assets/` 的相对结构完整。
 

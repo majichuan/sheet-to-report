@@ -2,6 +2,8 @@
 
 [简体中文](README.zh-CN.md)
 
+[![skills.sh installs](https://skills.sh/b/majichuan/sheet-to-report)](https://skills.sh/majichuan/sheet-to-report/sheet-to-report)
+
 **Turn one structured business table into an evidence-traceable report that is ready to read, discuss, and present.**
 
 ![sheet-to-report: from spreadsheet to evidence, charts, and actions](assets/brand/github-social-preview.png)
@@ -45,8 +47,10 @@ The online showcase compares four matching page pairs and provides both complete
 An Agent Skills-compatible installer can add it directly from GitHub:
 
 ```bash
-npx skills add https://github.com/majichuan/sheet-to-report
+npx skills add https://github.com/majichuan/sheet-to-report --skill sheet-to-report
 ```
+
+View the public listing and install count on [skills.sh](https://skills.sh/majichuan/sheet-to-report/sheet-to-report).
 
 You can also download a release ZIP or copy the repository into the skill directory supported by your AI tool. Keep `SKILL.md`, `references/`, `scripts/`, and `assets/` together.
 
