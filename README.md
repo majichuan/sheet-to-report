@@ -2,8 +2,6 @@
 
 [简体中文](README.zh-CN.md)
 
-[![skills.sh installs](https://skills.sh/b/majichuan/sheet-to-report)](https://skills.sh/majichuan/sheet-to-report/sheet-to-report)
-
 **Turn one structured business table into an evidence-traceable report that is ready to read, discuss, and present.**
 
 ![sheet-to-report: from spreadsheet to evidence, charts, and actions](assets/brand/github-social-preview.png)

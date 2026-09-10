@@ -2,8 +2,6 @@
 
 [English](README.md)
 
-[![skills.sh 安装量](https://skills.sh/b/majichuan/sheet-to-report)](https://skills.sh/majichuan/sheet-to-report/sheet-to-report)
-
 **把一张业务表，变成有判断、有依据、能汇报的经营简报。**
 
 ![从业务表到证据、图表与行动](assets/brand/github-social-preview.png)
