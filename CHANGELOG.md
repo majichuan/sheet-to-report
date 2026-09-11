@@ -2,9 +2,13 @@
 
 All notable public changes to `sheet-to-report` are recorded here.
 
-## Unreleased
+## 0.2.2 - 2026-09-11
 
 - Expanded the public synthetic demo into a three-output showcase with the complete HTML report, four matched standard/SlideViber page comparisons, and both downloadable 23-slide PPTX files.
+- Added a 30-second first-use entry and a prominent live-case link to the Skill entrypoint.
+- Added centralized Chinese and English FAQs for setup, data ambiguity, staged outputs, and host-platform errors.
+- Added backward-compatible Chinese environment summaries and next steps while preserving existing machine-readable fields.
+- Kept the accepted analysis, evidence, HTML, standard-PPT, and optional SlideViber contracts unchanged.
 
 ## 0.2.0 - 2026-09-10
 

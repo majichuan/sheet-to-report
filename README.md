@@ -8,6 +8,10 @@
 
 `sheet-to-report` is an Agent Skill for business reviews based on one well-structured Excel or CSV table. It helps an AI agent inspect the data, clarify metric definitions, identify material changes, connect conclusions to evidence, and produce an offline HTML report plus an optional editable presentation.
 
+> **First use:** give the file to an AI tool that can read local files and run Python, then ask it to use `sheet-to-report` for a monthly business review and generate the HTML first. You do not need to write code or JSON; the agent asks only when an ambiguity could change the conclusion.
+
+[Live demo](https://majichuan.github.io/sheet-to-report/) · [Try it](#try-it-with-synthetic-data) · [FAQ](FAQ.en.md) · [Install](INSTALL.en.md)
+
 > v0.2 is Chinese-first. The full workflow has been accepted on several synthetic Chinese business scenarios; equivalent English-output acceptance is not yet complete.
 
 ## See it in action
@@ -60,6 +64,8 @@ python scripts/environment_check.py --target html
 ```
 
 See [INSTALL.en.md](INSTALL.en.md) for standard PPT and optional SlideViber requirements.
+
+For file, environment, metric-definition, or host-model errors, see the [FAQ](FAQ.en.md). Outputs are staged, so a later PPT or refinement failure should not remove an already accepted HTML report or standard deck.
 
 ## Try it with synthetic data
 

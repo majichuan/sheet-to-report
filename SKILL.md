@@ -4,12 +4,25 @@ description: Use when a user wants to turn one structured Excel or CSV table int
 license: MIT
 compatibility: Requires Python 3.10+; standard PPT export also requires Node.js 18+ and python-pptx 1.0+; optional SlideViber is installed separately.
 metadata:
-  version: "0.2.0"
+  version: "0.2.2"
 ---
 
 # 数据分析&汇报小助手
 
 将单张结构清晰的 `.xlsx` 或 `.csv` 转成可追溯的 HTML 决策简报，并按需生成达到职场汇报标准的可编辑 PPTX。
+
+## 30 秒了解
+
+- **适合谁：** 需要做周报、月报、活动复盘或阶段经营汇报的运营、销售、产品及业务负责人。
+- **能得到什么：** 一份可离线阅读的 HTML 分析简报；按需生成可编辑标准 PPT；还可选择单独安装 SlideViber 继续制作美化版。
+- **怎样开始：** 用户只需提供一张结构清晰的 Excel／CSV，并说明汇报对象与想解决的问题。Agent 先检查字段和口径，只在歧义会改变结论时提问。
+- **实际效果：** [在线查看完整合成案例](https://majichuan.github.io/sheet-to-report/)，包括 HTML、标准 PPT 与 SlideViber 美化版的同源对照。
+
+第一次使用可以直接说：
+
+> 请用 sheet-to-report 分析这份 Excel，面向业务负责人做月度复盘。先检查字段和数据范围，只向我确认会改变结论的口径；先生成 HTML，如需 PPT 再按主题选择流程继续。
+
+Agent 执行时先运行与目标对应的环境预检；失败时保留已经通过的产物，并按[快速帮助与故障定位](references/quick-help.md)用普通用户能理解的语言说明“卡在哪一步、影响什么、下一步做什么”。
 
 ## 开始前确认
 
@@ -105,7 +118,7 @@ metadata:
 ## HTML 业务呈现规则
 
 - 图表先按本页要证明的关系和数据语义选择，再核对目标输出能力；保留候选取舍理由，不以图型数量作为质量指标。HTML、标准PPT与SlideViber复用同一来源投影。十类图型的选择依据见[共享图表合同](references/chart-spec.md)，实际容量、原生图表与可编辑形状的区别见[跨格式能力](references/chapter-presentation.md#图表跨格式能力)。换数据后重新选型，不能照搬既有案例图表清单。
-- HTML 只生成一套统一的标准商务样式；PPT主题选择独立于HTML，不因换PPT主题生成多份HTML。
+- HTML 只生成一套统一的标准商务样式；主题选择只作用于标准 PPT 与可选的 SlideViber 美化版，不作用于 HTML，也不因换 PPT 主题生成多份 HTML。
 - 主标题是报告身份与分析主题，不得使用 Skill 产品名。`report_subtitle` 只承载周期或范围，`judgement_headline` 承载最重要判断。
 - `period_overview` 展示分析期累计或整体口径；`latest_snapshot` 展示最新完整周期及实际对比周期。禁止把最新一个周期冒充整个分析期。
 - HTML 正文按已选业务问题章节递进；KPI、趋势与经营杠杆只作为上下文或证明材料，不能形成孤立单指标堆叠。没有核心章节时不得把浅层模块包装为合格经营简报。

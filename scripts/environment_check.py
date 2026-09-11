@@ -57,10 +57,28 @@ def check_environment(target='html', *, node=None, slideviber_dir=None):
         if not good:issues.append('SlideViber not located; install separately and pass --slideviber-dir PATH')
     python_ok=sys.version_info>=MINIMUM_PYTHON
     passed=python_ok and not missing and not incompatible and not issues
+    next_steps=[]
+    if not python_ok:
+        next_steps.append('安装 Python 3.10 或更高版本，并确认当前命令使用的是该解释器')
+    if missing or incompatible:
+        affected=missing+incompatible
+        next_steps.append(
+            '安装或升级当前目标所需的 Python 包：'+', '.join(affected)
+            +'；可运行 python -m pip install -r requirements.txt'
+        )
+    if target!='html' and not tools.get('node',{}).get('compatible'):
+        next_steps.append('安装 Node.js 18 或更高版本，或通过 --node 指定可执行文件')
+    if target=='slideviber' and not tools.get('slideviber',{}).get('available'):
+        next_steps.append('单独安装 SlideViber，并通过 --slideviber-dir 指定其目录；不需要美化版时可跳过')
+    if not next_steps:
+        next_steps.append('环境依赖已通过；继续生成后仍需检查字体、排版和实际文件')
     return {'status':'passed' if passed else 'failed','target':target,
             'python':{'version':platform.python_version(),'required_major':3,'required_minor':10,'compatible':python_ok},
             'dependencies':dependencies,'missing_dependencies':missing,'incompatible_dependencies':incompatible,
             'tools':tools,'issues':issues,
+            'user_summary':('环境预检通过，可以继续当前目标。' if passed else
+                            '环境预检未通过；请先完成下方最小修复，再继续当前目标。'),
+            'next_steps':next_steps,
             'install_command':None if not missing and not incompatible else 'python -m pip install -r requirements.txt',
             'additional_requirements':'Install the separately obtained SlideViber requirements.txt' if target=='slideviber' else None,
             'not_verified':['font_availability','actual_visual_rendering','native_app_editing']+

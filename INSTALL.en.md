@@ -1,5 +1,7 @@
 # Installation and usage
 
+For a quick diagnosis, start with the [FAQ](FAQ.en.md). This page keeps the full setup and environment boundaries.
+
 [简体中文](INSTALL.md)
 
 The skill has three output levels. Install only what the requested level needs.
