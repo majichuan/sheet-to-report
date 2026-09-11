@@ -46,6 +46,21 @@ The online showcase compares four matching page pairs and provides both complete
 
 ## Install
 
+### Claude Code plugin
+
+This repository is also packaged as a single-skill Claude Code plugin. The root `SKILL.md` remains the sole capability entrypoint; `.claude-plugin/plugin.json` only adds marketplace metadata, so the Claude distribution does not fork the analysis workflow.
+
+Before the community listing is approved, you can validate or preview the plugin from a local clone:
+
+```bash
+claude plugin validate . --strict
+claude --plugin-dir .
+```
+
+After approval, the marketplace installation command will be added here. The public submission is reviewed and is not yet presented as an available listing.
+
+### Agent Skills installer
+
 An Agent Skills-compatible installer can add it directly from GitHub:
 
 ```bash

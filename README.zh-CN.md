@@ -44,6 +44,21 @@
 
 ## 安装
 
+### Claude Code Plugin
+
+本仓库同时按单 Skill Claude Code Plugin 组织。根目录 `SKILL.md` 仍是唯一能力入口；`.claude-plugin/plugin.json` 只提供插件目录所需的元数据，因此 Claude 渠道不会复制或改写分析流程。
+
+社区目录审核通过前，可以在本地克隆仓库后校验和预览：
+
+```bash
+claude plugin validate . --strict
+claude --plugin-dir .
+```
+
+审核通过后再在这里补充正式的市场安装命令；当前只说明提交候选，不把尚未上线的目录条目写成已可安装。
+
+### Agent Skills 安装器
+
 可用兼容 Agent Skills 的安装器直接从 GitHub 安装：
 
 ```bash

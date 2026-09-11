@@ -2,6 +2,10 @@
 
 All notable public changes to `sheet-to-report` are recorded here.
 
+## Unreleased
+
+- Added a minimal Claude Code plugin manifest and bilingual validation instructions for community-directory submission without duplicating or changing the core Skill workflow.
+
 ## 0.2.2 - 2026-09-11
 
 - Expanded the public synthetic demo into a three-output showcase with the complete HTML report, four matched standard/SlideViber page comparisons, and both downloadable 23-slide PPTX files.
