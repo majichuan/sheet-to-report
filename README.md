@@ -10,7 +10,7 @@
 
 > **First use:** give the file to an AI tool that can read local files and run Python, then ask it to use `sheet-to-report` for a monthly business review and generate the HTML first. You do not need to write code or JSON; the agent asks only when an ambiguity could change the conclusion.
 
-[Live demo](https://majichuan.github.io/sheet-to-report/) · [Try it](#try-it-with-synthetic-data) · [FAQ](FAQ.en.md) · [Install](INSTALL.en.md)
+[Live demo](https://majichuan.github.io/sheet-to-report/) · [Quick start](QUICKSTART.md) · [FAQ](FAQ.en.md) · [Install](INSTALL.en.md)
 
 > v0.2 is Chinese-first. The full workflow has been accepted on several synthetic Chinese business scenarios; equivalent English-output acceptance is not yet complete.
 

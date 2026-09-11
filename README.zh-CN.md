@@ -10,7 +10,7 @@
 
 > **第一次使用：** 把文件交给能够读取文件并运行本地 Python 的 AI 工具，然后说“请用 sheet-to-report 分析这份表，面向业务负责人做月度复盘，先生成 HTML”。用户不需要编写代码或配置 JSON；影响结论的口径不清时，Agent 会再向你确认。
 
-[在线看完整案例](https://majichuan.github.io/sheet-to-report/) · [三步开始](#怎么开始) · [常见问题](FAQ.md) · [安装与环境](INSTALL.md)
+[在线看完整案例](https://majichuan.github.io/sheet-to-report/) · [三步开始](QUICKSTART.zh-CN.md) · [常见问题](FAQ.md) · [安装与环境](INSTALL.md)
 
 ## 先看实际效果
 
