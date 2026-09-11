@@ -114,6 +114,13 @@ python scripts/sheet_to_report.py --inspect generated-sample/synthetic-business.
 
 提交问题前，请先删除或替换真实业务与个人数据。参与方式见 [CONTRIBUTING.md](CONTRIBUTING.md)，安全问题见 [SECURITY.md](SECURITY.md)。
 
+## 隐私、条款与支持
+
+- [隐私政策（英文）](PRIVACY.md)
+- [使用条款（英文）](TERMS.md)
+- [问题支持（英文）](SUPPORT.md)
+- [安全问题报告](SECURITY.md)
+
 ## 许可
 
 本项目采用 [MIT License](LICENSE)。第三方与合成数据说明见 [NOTICE.md](NOTICE.md)。

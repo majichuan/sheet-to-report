@@ -113,6 +113,13 @@ The agent performs the analysis and report-authoring workflow described in `SKIL
 
 Before reporting a bug, remove or replace private business data. See [CONTRIBUTING.md](CONTRIBUTING.md) and [SECURITY.md](SECURITY.md).
 
+## Privacy, terms, and support
+
+- [Privacy Policy](PRIVACY.md)
+- [Terms of Use](TERMS.md)
+- [Support](SUPPORT.md)
+- [Security reporting](SECURITY.md)
+
 ## License
 
 [MIT](LICENSE). Third-party and synthetic-data notices are in [NOTICE.md](NOTICE.md).
