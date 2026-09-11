@@ -50,14 +50,21 @@ The online showcase compares four matching page pairs and provides both complete
 
 This repository is also packaged as a single-skill Claude Code plugin. The root `SKILL.md` remains the sole capability entrypoint; `.claude-plugin/plugin.json` only adds marketplace metadata, so the Claude distribution does not fork the analysis workflow.
 
-Before the community listing is approved, you can validate or preview the plugin from a local clone:
+Add the author-hosted marketplace and install the plugin from inside Claude Code:
+
+```text
+/plugin marketplace add majichuan/sheet-to-report
+/plugin install sheet-to-report@majichuan-skills
+```
+
+This is a GitHub-hosted installation entry maintained by the author. It does not imply approval or inclusion in Anthropic's community directory.
+
+To validate or preview a local clone:
 
 ```bash
 claude plugin validate . --strict
 claude --plugin-dir .
 ```
-
-After approval, the marketplace installation command will be added here. The public submission is reviewed and is not yet presented as an available listing.
 
 ### Agent Skills installer
 

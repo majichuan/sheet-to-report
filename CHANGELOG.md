@@ -4,6 +4,7 @@ All notable public changes to `sheet-to-report` are recorded here.
 
 ## Unreleased
 
+- Added an author-hosted Claude marketplace catalog and direct installation commands.
 - Added a minimal Claude Code plugin manifest and bilingual validation instructions for community-directory submission without duplicating or changing the core Skill workflow.
 
 ## 0.2.2 - 2026-09-11

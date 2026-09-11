@@ -48,14 +48,21 @@
 
 本仓库同时按单 Skill Claude Code Plugin 组织。根目录 `SKILL.md` 仍是唯一能力入口；`.claude-plugin/plugin.json` 只提供插件目录所需的元数据，因此 Claude 渠道不会复制或改写分析流程。
 
-社区目录审核通过前，可以在本地克隆仓库后校验和预览：
+在 Claude Code 内依次运行下面两条命令，即可添加作者自托管市场并安装：
+
+```text
+/plugin marketplace add majichuan/sheet-to-report
+/plugin install sheet-to-report@majichuan-skills
+```
+
+这是作者通过 GitHub 维护的安装入口，不代表已经通过 Anthropic 社区目录审核或收录。
+
+如需校验或预览本地克隆：
 
 ```bash
 claude plugin validate . --strict
 claude --plugin-dir .
 ```
-
-审核通过后再在这里补充正式的市场安装命令；当前只说明提交候选，不把尚未上线的目录条目写成已可安装。
 
 ### Agent Skills 安装器
 
