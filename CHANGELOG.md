@@ -4,6 +4,10 @@ All notable public changes to `sheet-to-report` are recorded here.
 
 ## Unreleased
 
+- Redesigned the first-run entry around a four-stage path from scope confirmation to HTML, standard PPT, and optional refinement.
+- Added distinct prompts for the recommended plan-first mode and direct analysis, while preserving mandatory clarification for conclusion-changing ambiguity.
+- Made Clear Business the first theme recommendation, required one-time choice prompts, and clarified real-rendered preview, editable-download, and fallback behavior.
+- Added explicit HTML-to-PPT and standard-to-SlideViber next steps, plus a guard that rejects the legacy HTML checker when given an `html-chapters/1` model.
 - Added an author-hosted Claude marketplace catalog and direct installation commands.
 - Added a minimal Claude Code plugin manifest and bilingual validation instructions for community-directory submission without duplicating or changing the core Skill workflow.
 
