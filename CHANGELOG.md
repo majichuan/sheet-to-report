@@ -2,7 +2,7 @@
 
 All notable public changes to `sheet-to-report` are recorded here.
 
-## Unreleased
+## 0.2.5 - 2026-09-16
 
 - Redesigned the first-run entry around a four-stage path from scope confirmation to HTML, standard PPT, and optional refinement.
 - Added distinct prompts for the recommended plan-first mode and direct analysis, while preserving mandatory clarification for conclusion-changing ambiguity.

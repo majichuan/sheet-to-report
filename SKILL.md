@@ -4,7 +4,7 @@ description: Use when a user wants to turn one structured Excel or CSV table int
 license: MIT
 compatibility: Requires Python 3.10+; standard PPT export also requires Node.js 18+ and python-pptx 1.0+; optional SlideViber is installed separately.
 metadata:
-  version: "0.2.2"
+  version: "0.2.5"
 ---
 
 # 数据分析&汇报小助手
