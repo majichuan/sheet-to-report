@@ -22,12 +22,20 @@
         try { copied = document.execCommand('copy'); } catch (_) { copied = false; }
         if (!copied) source.focus({preventScroll:true});
       }
-      announce(copied ? '已复制。回到你的 AI 工具中粘贴并发送。' : '自动复制不可用，已选中文字；请用系统复制功能复制。');
+      const destination = button.dataset.copyDestination;
+      const success = destination === 'terminal' ? '已复制安装命令。请在电脑终端中执行。' : destination === 'claude' ? '已复制。请在 Claude Code 中依次执行这两条命令。' : '已复制。回到刚才的 AI 对话中粘贴并发送。';
+      announce(copied ? success : '自动复制不可用，已选中文字；请用系统复制功能复制。');
     });
   });
   document.querySelectorAll('[data-expand]').forEach(link => link.addEventListener('click', () => {
     document.getElementById(link.dataset.expand).open = true;
   }));
+  function revealHash() {
+    const target = document.getElementById(location.hash.slice(1));
+    if (target && target.matches('details')) target.open = true;
+  }
+  addEventListener('hashchange', revealHash);
+  revealHash();
   {
     const navLinks = [...document.querySelectorAll('.contents a')];
     let pending = false;
@@ -45,6 +53,7 @@
     }
     addEventListener('scroll', queueUpdate, {passive:true});
     addEventListener('resize', queueUpdate);
+    document.querySelectorAll('details').forEach(el => el.addEventListener('toggle', queueUpdate));
     addEventListener('load', queueUpdate);
     updateLocation();
   }
