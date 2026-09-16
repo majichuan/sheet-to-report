@@ -11,6 +11,7 @@ from pptx.enum.text import MSO_AUTO_SIZE, MSO_ANCHOR
 from pptx.oxml.xmlchemy import OxmlElement
 from pptx.oxml.ns import qn
 from pptx.util import Emu, Pt
+from chart_axis_ids import normalize_chart_axis_ids
 
 PX=9525
 def emu(x): return Emu(round(x*PX))
@@ -134,6 +135,7 @@ def draw_chart(slide,o,v,config,series_indices=None):
             if lo==hi:lo-=max(1,abs(lo)*.05);hi+=max(1,abs(hi)*.05)
             xa.minimum_scale=lo;xa.maximum_scale=hi;xa.tick_labels.number_format='yyyy-mm' if v['axes']['x']['scale']=='time' else '0.00'
             if v['axes']['x']['scale']=='time':xa.major_unit=max(1,round((hi-lo)/6))
+    normalize_chart_axis_ids(cs)
     return {'id':v['id'],'kind':kind,'series_indices':si,'source_order':order}
 
 def render_deck(projection,scene,pages,out):
